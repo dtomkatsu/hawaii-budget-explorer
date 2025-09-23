@@ -1,0 +1,152 @@
+[
+  {
+    "id": "uoh",
+    "name": "Department of UOH",
+    "budget": "$0",
+    "path": "/pages/uoh.html"
+  },
+  {
+    "id": "ltg",
+    "name": "Department of LTG",
+    "budget": "$0",
+    "path": "/pages/ltg.html"
+  },
+  {
+    "id": "hms",
+    "name": "Department of HMS",
+    "budget": "$0",
+    "path": "/pages/hms.html"
+  },
+  {
+    "id": "hhl",
+    "name": "Department of HHL",
+    "budget": "$0",
+    "path": "/pages/hhl.html"
+  },
+  {
+    "id": "def",
+    "name": "Department of DEF",
+    "budget": "$0",
+    "path": "/pages/def.html"
+  },
+  {
+    "id": "hrd",
+    "name": "Department of HRD",
+    "budget": "$0",
+    "path": "/pages/hrd.html"
+  },
+  {
+    "id": "cca",
+    "name": "Department of CCA",
+    "budget": "$0",
+    "path": "/pages/cca.html"
+  },
+  {
+    "id": "p",
+    "name": "Department of P",
+    "budget": "$0",
+    "path": "/pages/p.html"
+  },
+  {
+    "id": "trn",
+    "name": "Department of TRN",
+    "budget": "$0",
+    "path": "/pages/trn.html"
+  },
+  {
+    "id": "edn",
+    "name": "Department of EDN",
+    "budget": "$0",
+    "path": "/pages/edn.html"
+  },
+  {
+    "id": "agr",
+    "name": "Department of AGR",
+    "budget": "$0",
+    "path": "/pages/agr.html"
+  },
+  {
+    "id": "bed",
+    "name": "Department of BED",
+    "budget": "$0",
+    "path": "/pages/bed.html"
+  },
+  {
+    "id": "gov",
+    "name": "Department of GOV",
+    "budget": "$0",
+    "path": "/pages/gov.html"
+  },
+  {
+    "id": "psd",
+    "name": "Department of PSD",
+    "budget": "$0",
+    "path": "/pages/psd.html"
+  },
+  {
+    "id": "lnr",
+    "name": "Department of LNR",
+    "budget": "$0",
+    "path": "/pages/lnr.html"
+  },
+  {
+    "id": "ags",
+    "name": "Department of AGS",
+    "budget": "$0",
+    "path": "/pages/ags.html"
+  },
+  {
+    "id": "coh",
+    "name": "Department of COH",
+    "budget": "$0",
+    "path": "/pages/coh.html"
+  },
+  {
+    "id": "hth",
+    "name": "Department of HTH",
+    "budget": "$0",
+    "path": "/pages/hth.html"
+  },
+  {
+    "id": "law",
+    "name": "Department of LAW",
+    "budget": "$0",
+    "path": "/pages/law.html"
+  },
+  {
+    "id": "atg",
+    "name": "Department of ATG",
+    "budget": "$0",
+    "path": "/pages/atg.html"
+  },
+  {
+    "id": "cok",
+    "name": "Department of COK",
+    "budget": "$0",
+    "path": "/pages/cok.html"
+  },
+  {
+    "id": "buf",
+    "name": "Department of BUF",
+    "budget": "$0",
+    "path": "/pages/buf.html"
+  },
+  {
+    "id": "tax",
+    "name": "Department of TAX",
+    "budget": "$0",
+    "path": "/pages/tax.html"
+  },
+  {
+    "id": "cch",
+    "name": "Department of CCH",
+    "budget": "$0",
+    "path": "/pages/cch.html"
+  },
+  {
+    "id": "lbr",
+    "name": "Department of LBR",
+    "budget": "$0",
+    "path": "/pages/lbr.html"
+  }
+]

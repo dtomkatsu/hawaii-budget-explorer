@@ -1,0 +1,45 @@
+
+        <div class="department-detail">
+            <a href="#/departments" class="back-button">← Back to Departments</a>
+            <div class="department-header">
+                <h2>Department of HTH</h2>
+                <p>This is a placeholder for the Department of HTH budget report.</p>
+                <p>In a real implementation, this would contain the full report content.</p>
+            </div>
+            <div class="chart-container">
+                <canvas id="deptBudgetChart"></canvas>
+            </div>
+        </div>
+        <script>
+        // This would be initialized by the SPA router
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx = document.getElementById('deptBudgetChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Program 1', 'Program 2', 'Program 3', 'Program 4'],
+                    datasets: [{
+                        label: 'Budget Allocation',
+                        data: [12, 19, 3, 5],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.7)',
+                            'rgba(54, 162, 235, 0.7)',
+                            'rgba(255, 206, 86, 0.7)',
+                            'rgba(75, 192, 192, 0.7)'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: 'Department of HTH Budget Allocation'
+                        }
+                    }
+                }
+            });
+        });
+        </script>
+        
