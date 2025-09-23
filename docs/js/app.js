@@ -15,11 +15,13 @@ async function loadDepartments() {
 
 // Main application logic
 document.addEventListener('DOMContentLoaded', async () => {
-    // Load departments data first
-    await loadDepartments();
-    
-    // Define routes
-    const routes = [
+    try {
+        // Load departments data first
+        departmentsData = await loadDepartments();
+        console.log('Loaded departments:', departmentsData);
+        
+        // Define routes
+        const routes = [
         {
             path: '/',
             component: homePage,
@@ -45,11 +47,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     ];
 
-    // Initialize router
-    const router = new Router(routes);
-    
-    // Handle initial route
-    router.handleRoute();
+        // Initialize router
+        const router = new Router(routes);
+        
+        // Handle initial route
+        router.handleRoute();
+    } catch (error) {
+        console.error('Error initializing app:', error);
+        document.getElementById('app').innerHTML = `
+            <div class="error-message">
+                <h2>Error Loading Application</h2>
+                <p>There was an error loading the application. Please refresh the page to try again.</p>
+                <p>Error details: ${error.message}</p>
+            </div>`;
+    }
 });
 
 // Page Components
