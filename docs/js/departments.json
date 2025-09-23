@@ -1,152 +1,152 @@
 [
   {
-    "id": "uoh",
-    "name": "Department of UOH",
-    "budget": "$0",
-    "path": "/pages/uoh.html"
-  },
-  {
-    "id": "ltg",
-    "name": "Department of LTG",
-    "budget": "$0",
-    "path": "/pages/ltg.html"
-  },
-  {
-    "id": "hms",
-    "name": "Department of HMS",
-    "budget": "$0",
-    "path": "/pages/hms.html"
-  },
-  {
-    "id": "hhl",
-    "name": "Department of HHL",
-    "budget": "$0",
-    "path": "/pages/hhl.html"
-  },
-  {
-    "id": "def",
-    "name": "Department of DEF",
-    "budget": "$0",
-    "path": "/pages/def.html"
-  },
-  {
-    "id": "hrd",
-    "name": "Department of HRD",
-    "budget": "$0",
-    "path": "/pages/hrd.html"
-  },
-  {
-    "id": "cca",
-    "name": "Department of CCA",
-    "budget": "$0",
-    "path": "/pages/cca.html"
-  },
-  {
-    "id": "p",
-    "name": "Department of P",
-    "budget": "$0",
-    "path": "/pages/p.html"
-  },
-  {
-    "id": "trn",
-    "name": "Department of TRN",
-    "budget": "$0",
-    "path": "/pages/trn.html"
-  },
-  {
-    "id": "edn",
-    "name": "Department of EDN",
-    "budget": "$0",
-    "path": "/pages/edn.html"
-  },
-  {
-    "id": "agr",
-    "name": "Department of AGR",
-    "budget": "$0",
-    "path": "/pages/agr.html"
-  },
-  {
-    "id": "bed",
-    "name": "Department of BED",
-    "budget": "$0",
-    "path": "/pages/bed.html"
-  },
-  {
-    "id": "gov",
-    "name": "Department of GOV",
-    "budget": "$0",
-    "path": "/pages/gov.html"
-  },
-  {
-    "id": "psd",
-    "name": "Department of PSD",
-    "budget": "$0",
-    "path": "/pages/psd.html"
-  },
-  {
-    "id": "lnr",
-    "name": "Department of LNR",
-    "budget": "$0",
-    "path": "/pages/lnr.html"
-  },
-  {
-    "id": "ags",
-    "name": "Department of AGS",
-    "budget": "$0",
-    "path": "/pages/ags.html"
-  },
-  {
     "id": "coh",
-    "name": "Department of COH",
-    "budget": "$0",
+    "name": "County of Hawaii",
+    "budget": "$0M",
     "path": "/pages/coh.html"
   },
   {
-    "id": "hth",
-    "name": "Department of HTH",
-    "budget": "$0",
-    "path": "/pages/hth.html"
-  },
-  {
-    "id": "law",
-    "name": "Department of LAW",
-    "budget": "$0",
-    "path": "/pages/law.html"
-  },
-  {
-    "id": "atg",
-    "name": "Department of ATG",
-    "budget": "$0",
-    "path": "/pages/atg.html"
-  },
-  {
     "id": "cok",
-    "name": "Department of COK",
-    "budget": "$0",
+    "name": "County of Kauai",
+    "budget": "$0M",
     "path": "/pages/cok.html"
   },
   {
+    "id": "agr",
+    "name": "Department of Agriculture",
+    "budget": "$75.71M",
+    "path": "/pages/agr.html"
+  },
+  {
     "id": "buf",
-    "name": "Department of BUF",
-    "budget": "$0",
+    "name": "Department of Budget and Finance",
+    "budget": "$4.32B",
     "path": "/pages/buf.html"
   },
   {
-    "id": "tax",
-    "name": "Department of TAX",
-    "budget": "$0",
-    "path": "/pages/tax.html"
+    "id": "bed",
+    "name": "Department of Business, Economic Development and Tourism",
+    "budget": "$292.61M",
+    "path": "/pages/bed.html"
+  },
+  {
+    "id": "cca",
+    "name": "Department of Commerce and Consumer Affairs",
+    "budget": "$119.07M",
+    "path": "/pages/cca.html"
   },
   {
     "id": "cch",
-    "name": "Department of CCH",
-    "budget": "$0",
+    "name": "Department of Community and Cultural Affairs",
+    "budget": "$0M",
     "path": "/pages/cch.html"
   },
   {
+    "id": "def",
+    "name": "Department of Defense",
+    "budget": "$113.20M",
+    "path": "/pages/def.html"
+  },
+  {
+    "id": "edn",
+    "name": "Department of Education",
+    "budget": "$3.07B",
+    "path": "/pages/edn.html"
+  },
+  {
+    "id": "hhl",
+    "name": "Department of Hawaiian Home Lands",
+    "budget": "$165.16M",
+    "path": "/pages/hhl.html"
+  },
+  {
+    "id": "hth",
+    "name": "Department of Health",
+    "budget": "$2.22B",
+    "path": "/pages/hth.html"
+  },
+  {
+    "id": "hrd",
+    "name": "Department of Human Resources Development",
+    "budget": "$37.05M",
+    "path": "/pages/hrd.html"
+  },
+  {
     "id": "lbr",
-    "name": "Department of LBR",
-    "budget": "$0",
+    "name": "Department of Labor and Industrial Relations",
+    "budget": "$463.81M",
     "path": "/pages/lbr.html"
+  },
+  {
+    "id": "lnr",
+    "name": "Department of Land and Natural Resources",
+    "budget": "$324.96M",
+    "path": "/pages/lnr.html"
+  },
+  {
+    "id": "law",
+    "name": "Department of Law Enforcement",
+    "budget": "$98.18M",
+    "path": "/pages/law.html"
+  },
+  {
+    "id": "psd",
+    "name": "Department of Public Safety",
+    "budget": "$320.44M",
+    "path": "/pages/psd.html"
+  },
+  {
+    "id": "tax",
+    "name": "Department of Taxation",
+    "budget": "$43.24M",
+    "path": "/pages/tax.html"
+  },
+  {
+    "id": "trn",
+    "name": "Department of Transportation",
+    "budget": "$1.65B",
+    "path": "/pages/trn.html"
+  },
+  {
+    "id": "ags",
+    "name": "Department of the Attorney General",
+    "budget": "$260.63M",
+    "path": "/pages/ags.html"
+  },
+  {
+    "id": "atg",
+    "name": "Department of the Attorney General",
+    "budget": "$135.48M",
+    "path": "/pages/atg.html"
+  },
+  {
+    "id": "hms",
+    "name": "Hawaii Medical Service Association",
+    "budget": "$4.77B",
+    "path": "/pages/hms.html"
+  },
+  {
+    "id": "p",
+    "name": "Legislature",
+    "budget": "$0.16M",
+    "path": "/pages/p.html"
+  },
+  {
+    "id": "gov",
+    "name": "Office of the Governor",
+    "budget": "$4.55M",
+    "path": "/pages/gov.html"
+  },
+  {
+    "id": "ltg",
+    "name": "Office of the Lieutenant Governor",
+    "budget": "$2.56M",
+    "path": "/pages/ltg.html"
+  },
+  {
+    "id": "uoh",
+    "name": "University of Hawaii",
+    "budget": "$1.36B",
+    "path": "/pages/uoh.html"
   }
 ]
