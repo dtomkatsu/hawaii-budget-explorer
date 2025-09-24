@@ -193,30 +193,52 @@ async function departmentDetailPage() {
         `;
     }
     
-    // Load the department's HTML content
+    // Load the department's full budget report HTML content
     try {
-        const response = await fetch(`./pages/${deptId}.html`);
+        const response = await fetch(`./pages/${deptId}_budget_report.html`);
         if (!response.ok) {
-            throw new Error('Department page not found');
+            throw new Error('Department budget report not found');
         }
         const htmlContent = await response.text();
         
         return `
             <section class="department-detail">
                 <a href="#/departments" class="back-button">← Back to Departments</a>
-                ${htmlContent}
+                <div class="department-content">
+                    ${htmlContent}
+                </div>
             </section>
         `;
     } catch (error) {
-        console.error('Error loading department page:', error);
-        return `
-            <section class="department-detail">
-                <a href="#/departments" class="back-button">← Back to Departments</a>
-                <h2>${dept.name}</h2>
-                <p>Budget: ${dept.budget}</p>
-                <p>Detailed information for this department is currently unavailable.</p>
-            </section>
-        `;
+        console.error('Error loading department budget report:', error);
+        
+        // Fallback to try the simple HTML file
+        try {
+            const fallbackResponse = await fetch(`./pages/${deptId}.html`);
+            if (!fallbackResponse.ok) {
+                throw new Error('Department page not found');
+            }
+            const fallbackContent = await fallbackResponse.text();
+            
+            return `
+                <section class="department-detail">
+                    <a href="#/departments" class="back-button">← Back to Departments</a>
+                    <div class="department-content">
+                        ${fallbackContent}
+                    </div>
+                </section>
+            `;
+        } catch (fallbackError) {
+            console.error('Error loading fallback department page:', fallbackError);
+            return `
+                <section class="department-detail">
+                    <a href="#/departments" class="back-button">← Back to Departments</a>
+                    <h2>${dept.name}</h2>
+                    <p>Budget: ${dept.budget}</p>
+                    <p>Detailed information for this department is currently unavailable.</p>
+                </section>
+            `;
+        }
     }
 }
 
