@@ -27,7 +27,31 @@ class Router {
 
     async handleRoute() {
         const path = window.location.hash.slice(1) || '/';
-        const route = this.routes.find(r => r.path === path) || this.routes.find(r => r.path === '*');
+        
+        // Find matching route (including parameterized routes)
+        let route = this.routes.find(r => r.path === path);
+        
+        // If no exact match, check for parameterized routes
+        if (!route) {
+            route = this.routes.find(r => {
+                if (r.path.includes(':')) {
+                    const routeParts = r.path.split('/');
+                    const pathParts = path.split('/');
+                    
+                    if (routeParts.length !== pathParts.length) return false;
+                    
+                    return routeParts.every((part, index) => {
+                        return part.startsWith(':') || part === pathParts[index];
+                    });
+                }
+                return false;
+            });
+        }
+        
+        // Fallback to wildcard route
+        if (!route) {
+            route = this.routes.find(r => r.path === '*');
+        }
         
         if (route) {
             try {
