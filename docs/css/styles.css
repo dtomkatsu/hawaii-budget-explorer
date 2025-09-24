@@ -184,6 +184,41 @@ body {
     position: relative;
     margin: 2rem 0;
     height: 400px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/* Department Detail Page */
+.department-detail {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.department-detail .department-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.department-detail table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.department-detail th,
+.department-detail td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.department-detail th {
+    background-color: var(--light-gray);
+    font-weight: 600;
 }
 
 /* Back Button */
